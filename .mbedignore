@@ -1,0 +1,10 @@
+cryptoauthlib/app/secure_boot/
+cryptoauthlib/app/ip_protecton/
+cryptoauthlib/docs/
+cryptoauthlib/python/
+cryptoauthlib/test/
+cryptoauthlib/third_party/
+cryptoauthlib/lib/hal/hal_*
+cryptoauthlib/lib/hal/i2c_*
+cryptoauthlib/lib/hal/kit_*
+cryptoauthlib/lib/hal/swi_*
