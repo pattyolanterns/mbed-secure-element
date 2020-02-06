@@ -56,7 +56,7 @@ void atca_delay_10us(uint32_t delay) {
 
 void atca_delay_ms(uint32_t delay) {
     // tr_debug("delay_ms %lu", delay);
-    wait_ms(delay);
+    wait_us(delay * 1000);
 }
 
 /** \brief hal_i2c_init manages requests to initialize a physical interface.  it manages use counts so when an interface
